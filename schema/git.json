@@ -53,6 +53,11 @@
       },
       "default": []
     },
+    "commitMessage": {
+      "type": "string",
+      "default": "Release ${version}",
+      "description": "Commit message template. Possible variables [version, ]"
+    },
     "tag": {
       "type": "boolean",
       "default": true
